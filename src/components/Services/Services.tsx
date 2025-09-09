@@ -1,6 +1,6 @@
 import './Services.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import arrow_icon from '../../assets/arrow_icon.svg'
+// import arrow_icon from '../../assets/arrow_icon.svg'
 const Services_Data = [
     {
         s_no:"01",
