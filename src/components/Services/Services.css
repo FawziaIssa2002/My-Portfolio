@@ -101,3 +101,57 @@
         gap: 30px;
     }
 }
+@media (max-width: 640px){
+    .services {
+        gap: 40px;
+        margin: 20px 20px;     /* هوامش أقل */
+        align-items: center;   /* توسيط المحتوى */
+    }
+
+    .services-title h1 {
+        font-size: 36px;       /* أصغر */
+        padding: 0;
+        text-align: center;    /* توسيط العنوان */
+    }
+
+    .services-title img {
+        width: 100px;          /* تصغير الزخرفة */
+        right: 50%;            /* بالنص */
+        transform: translateX(50%);
+    }
+
+    .services-container {
+        grid-template-columns: 1fr; /* عمود واحد */
+        gap: 20px;                  /* مسافة أصغر */
+    }
+
+    .services-format {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .services-format h3 {
+        font-size: 22px;
+    }
+
+    .services-format h2 {
+        font-size: 24px;
+    }
+
+    .services-format p {
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 100%;          /* يخلي النص ياخد عرض الكرت */
+        text-align: center;       /* أسهل للقراءة على الموبايل */
+    }
+
+    .services-readmore {
+        justify-content: center;  /* توسيط زر "Read More" */
+        gap: 10px;
+    }
+
+    .services-readmore img {
+        width: 18px;
+    }
+    
+}

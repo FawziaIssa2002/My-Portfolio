@@ -62,6 +62,9 @@
     .navbar {
         margin: 20px 50px;
     }
+    .logo{
+        width: 30%;
+    }
     .nav-connect {
         display: none;
     }
@@ -100,5 +103,33 @@
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
+    }
+}
+@media (max-width: 640px){
+    .logo {
+        width: 45%;   /* الشعار يصغر أكثر عشان ياخد مساحة أقل */
+    }
+
+    .nav-menu {
+        width: 25%;  /* القائمة تاخد كل عرض الشاشة */
+        right: -100%; /* مخفية خارج الشاشة */
+    }
+
+    .nav-menu li {
+        font-size: 22px;   /* أصغر من التابلت */
+        padding-left: 40px; /* مسافة أقل من الحافة */
+    }
+
+    .nav-mob-close {
+        left: auto;    /* خلي زر الإغلاق ثابت */
+        right: 0px;   /* على يمين الشاشة */
+        top: 20px;
+        width: 25px;   /* أصغر شوي */
+    }
+
+    .nav-mob-open {
+        right: 20px;   /* زر القائمة يكون قريب من الحافة */
+        top: 18px;
+        width: 28px;
     }
 }

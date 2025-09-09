@@ -87,3 +87,38 @@
         cursor: pointer;
     }
 }
+@media (max-width: 640px){
+    .mywork {
+        gap: 40px;
+        margin: 40px 20px;   /* نخفف الهوامش */
+        align-items: center; /* نخلي المحتوى بالوسط */
+    }
+
+    .mywork-titile h1 {
+        font-size: 36px;     /* أصغر للعنوان */
+        padding: 0;
+        text-align: center;  /* توسيط النص */
+    }
+
+    .mywork-titile img {
+        width: 100px;        /* نصغر الزخرفة */
+        right: 50%;          /* ننصها بالوسط */
+        transform: translateX(50%);
+    }
+
+    .mywork-container {
+        grid-template-columns: 1fr; /* عمود واحد بس */
+        gap: 20px;                  /* مسافة أقل بين العناصر */
+    }
+
+    .mywork-container img {
+        width: 100%;      /* الصورة تاخد كامل عرض الكرت */
+        height: auto;     /* نخلي الطول تلقائي */
+    }
+
+    .mywork-showmore {
+        padding: 15px 30px;  /* زر أصغر */
+        font-size: 16px;
+        margin: 40px auto;   /* نخليه بالوسط */
+    }
+}
