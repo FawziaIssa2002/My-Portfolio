@@ -10,12 +10,12 @@ const Services_Data = [
     
     {
         s_no:"02",
-        s_name:"Web design",
+        s_name:"To Do list",
         s_desc:"This online platform offers features for storing notes ..."
     },
     {
         s_no:"03",
-        s_name:"Web design",
+        s_name:"Authenticates",
         s_desc:"A site that authenticates between two e-mails to ensure that ..."
     },
     {
