@@ -23,7 +23,7 @@ const Footer =()=> {
                 <div className="footer-bottom-right">
                     <p>Term Services</p>
                     <p>Privacy Policy</p>
-                    <p>Connect with me</p>
+                    {/* <p>Connect with me</p> */}
                 </div>
             </div>
         </div>

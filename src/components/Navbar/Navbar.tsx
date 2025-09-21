@@ -38,6 +38,7 @@ import underline from '../../assets/nav_underline.svg'
             </div>
         </div>
     )
+
 }
 
 export default  Navbar 

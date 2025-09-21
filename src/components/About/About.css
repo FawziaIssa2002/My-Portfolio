@@ -98,8 +98,8 @@
 }
 @media(max-width:768px){
     .about{
-        gap: 80px;
-        margin: 50px 70px;
+        /* gap: 80px; */
+        margin: 50px 30px;
         align-items: start;
     }
     .about-title h1{
@@ -130,11 +130,11 @@
     }
     .about-achievements{
         justify-content: space-between;
-        gap: 20px;
+        gap: 10px;
     }
     .about-achievement{
         gap: 10px;
-        padding: 10px 10px; 
+        /* padding: 10px 10px;  */
     }
     .about-achievement h1{
         font-size: 34px;

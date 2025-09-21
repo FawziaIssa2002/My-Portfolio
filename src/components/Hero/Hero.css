@@ -78,9 +78,11 @@
     .hero-connect {
         padding: 20px 30px;
         border-radius: 40px;
+        text-align: center;
     }
     .hero-resume{
-        padding: 20px 50px;
+        padding: 20px 30px;
         border-radius: 40px;
+        text-align: center;
     }
 }
