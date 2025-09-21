@@ -44,7 +44,7 @@ const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         <div className="contact-left">
           <h1>Let's talk</h1>
           <p>
-            I'm currently avaliable to take on new projects, so feel free to{" "}
+            I'm currently avaliable to take on new projects, so feel free to communication
           </p>
           <div className="contact-details">
             <div className="contact-detail">

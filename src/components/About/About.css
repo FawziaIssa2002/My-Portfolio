@@ -130,9 +130,11 @@
     }
     .about-achievements{
         justify-content: space-between;
+        gap: 20px;
     }
     .about-achievement{
         gap: 10px;
+        padding: 10px 10px; 
     }
     .about-achievement h1{
         font-size: 34px;

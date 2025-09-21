@@ -15,7 +15,7 @@ const About = () => {
                 </div> */}
                 <div className="about-right">
                     <div className="about-para">
-                        <p>I am an Frontend Developer with more than 3 years of experienced</p>
+                        {/* <p>I am an Frontend Developer with more than 3 years of experienced</p> */}
                         <p>My passion for front-end development is not only reflected in my extensive experience, but also in the enthusiasm and dedication I bring to every project.</p>
                     </div>
                     <div className="about-skills">

@@ -1,6 +1,6 @@
 import './MyWork.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import project1_img from '../../assets/01/project1.png';
+import project1_img from '../../assets/01/final.png';
 import project2_img from '../../assets/02/11.png'
 import project3_img from '../../assets/03/weather.png'
 import project4_img from '../../assets/04/mokup.png'
